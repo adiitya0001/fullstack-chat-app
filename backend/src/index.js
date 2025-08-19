@@ -7,8 +7,8 @@ import path from "path";
 
 import { connectDB } from "./lib/db.js";
 
-import authRoutes from "./routes/auth.routes.js"
-import messageRoutes from "./routes/message.routes.js"
+import authRoutes from "../routes/auth.routes.js";
+import messageRoutes from "../routes/message.routes.js";
 import { app, server } from "./lib/socket.js";
 
 dotenv.config()
