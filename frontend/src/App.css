@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/*
+=====================================================
+=== FINAL CODE FOR COMPLETE MOBILE RESPONSIVENESS ===
+=====================================================
+*/
+@media (max-width: 768px) {
+  /* Fix #1: Reduces padding on the main app container */
+  #root {
+    padding: 0.5rem;
+  }
+
+  /* Fix #2: Hides the sidebar on mobile */
+  .sidebar-container {
+    display: none;
+  }
+
+  /* Fix #3: Makes the chat container fill the entire screen */
+  .chat-container {
+    width: 100%;
+  }
+}
